@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Formulario Syllabus</title>
+</head>
+
+<div class="card bg-dark text-white">
+  <img class="card-img" src="FotoAmarilla.jpg" alt="foto">
+  <div class="card-img-overlay">
+    <h5 class="card-title">SYLLABUS</h5>
+    <p class="card-text">Bienvenidos al nuevo Syllabus de la Universidad EAN.</p>
+    <p>Habiendo ingresado como admin podrá tener el acceso a la edición de contenido del siguiente sitio.</p>
+    <br>
+    <h6 class="text-secondary">ARQUITECTURA DE COMPUTACIÓN</h6>
+  </div>
+</div>
+
+<body>
+<br>
+<br>
+<div class="container">
+<div class="form-row">
+<form>
+  <div class="form-row">
+   
+   <div class="form-row">
+    <div class="col">
+    
+     <label class="font-weight-bold" for="year">Año</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="col">
+      <label class="font-weight-bold" for="Tipo">Tipo</label>
+      <select id="Tipo" class="form-control">
+        <option selected>Nuclear</option>
+        <option>Transversal</option>
+        <option>Electiva</option>
+      </select>
+    </div>
+    <div class="col">
+     <label class="font-weight-bold" for="code">Código</label>
+      <input type="text" class="form-control">
+    </div>
+    <br>
+    <div>
+    <label class="font-weight-bold" for="subject">Unidad de estudio</label>
+      <input type="text" class="form-control">
+      </div>
+      <div class="col">
+      <label class="font-weight-bold" for="mod">Modalidad</label>
+      <select id="mod" class="form-control">
+        <option selected>Presencial</option>
+        <option>Virtual</option>
+      </select>
+    </div>
+     <div class="col">
+       <label class="font-weight-bold" for="cred">Créditos</label>
+      <input type="text" class="form-control">
+       </div> 
+  </div>
+  </div>
+  <div class="form-row">
+   <div class="form-row">
+    <label class="font-weight-bold" for="du">Duración</label>
+      <select id="du" class="form-control">
+        <option selected>Semestral</option>
+        <option>Ciclo</option>
+      </select>
+  </div>
+  <br>
+  <div class="col">
+       <label class="font-weight-bold" for="hr">Horas Ac. Directo</label>
+      <input type="text" class="form-control">
+       </div> 
+  <div class="col">
+       <label class="font-weight-bold" for="ha">Horas Trab. Autónomo </label>
+      <input type="text" class="form-control">
+       </div>
+  <div class="col">
+       <label class="font-weight-bold" for="ht">Horas Totales </label>
+      <input type="text" class="form-control">
+       </div>
+  <div class="form-group">
+    <label class="font-weight-bold" for="facu">Facultad o Instituto</label>
+      <select id="fac" class="form-control">
+        <option selected>Ingeniería</option>
+        <option>Humanidades y Ciencias Sociales</option>
+        <option>Economía y Finanzas</option>
+      </select>
+  </div>
+  <div class="form-group">
+    <label class="font-weight-bold" for="pro">Programa</label>
+      <select id="pro" class="form-control">
+        <option selected>Ingeniería de Sistemas</option>
+        <option>Ingeniería Química</option>
+        <option>Ingeniería de Energías</option>
+      </select>
+  </div>
+  
+  <div class="form-row">
+ <div class="col">
+     <label class="font-weight-bold" for="pr">Unidades de estudio Pre-requisito</label>
+      <input type="text" class="form-control">
+    </div>
+    <br>
+    <div>
+    <label class="font-weight-bold" for="subject">Unidades de estudio co-requisito</label>
+      <input type="text" class="form-control">
+      </div>
+      </div>
+  </div>
+  
+   <div class="form-group">
+    <label class="font-weight-bold" for="prop">PROPÓSITO DEL CURSO</label><p class="font-italic">(Justificación / Motivación / Aportes al perfil del egresado)</p>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  
+   <div class="form-group">
+    <label class="font-weight-bold" for="comp">COMPETENCIA GLOBAL</label>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+   <div class="form-group">
+    <label class="font-weight-bold" class="font-weight-bold" for="compE">COMPETENCIAS ESPECÍFICAS</label><label class="font-italic">(C.E)</label>
+    <div>
+    <label class="font-weight-bold">A</label><textarea class="form-control" rows="1" id="comment"></textarea>
+  </div>
+   <label class="font-weight-bold">B</label><textarea class="form-control" rows="1" id="comment"></textarea>
+   <label class="font-weight-bold">C</label><textarea class="form-control" rows="1" id="comment"></textarea>
+   <label class="font-weight-bold">D</label><textarea class="form-control" rows="1" id="comment"></textarea>
+   <label class="font-weight-bold">E</label><textarea class="form-control" rows="1" id="comment"></textarea>
+  </div>
+ 
+  <div class="form-check">
+  <label class="font-weight-bold">COMPETENCIAS TRANSVERSALES</label><label class="font-italic">(C.T)</label>
+  <br>
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+     Emprendedoras
+  </label><label class="font-italic">(E.M)</label>
+    </div>
+    <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+     Socio-humanísticas
+        </label><label class="font-italic">(S.H)</label>
+        </div>
+        <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+     Investigativas 
+  </label><label class="font-italic"> (I.N)</label>
+    </div>
+    <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+     Comunicativas
+  </label><label class="font-italic">(C.O)</label>
+    </div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+     Tecnológicas
+  </label><label class="font-italic">(T.E)</label>
+</div>
+    <br>
+   <div class="form-group">
+    <label class="font-weight-bold" for="ct">COMPETENCIAS TRANSVERSALES</label><p class="font-italic">(C.T)</p>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+   <div class="form-group">
+    <label class="font-weight-bold" for="met">METODOLOGÍA</label>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  <div class="form-group">
+    <label class="font-weight-bold" for="met">RESUMEN DE CONTENIDOS</label><label class="font-italic">(Temas generales)</label>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  <!--
+  AQUÍ VAN LAS SESIONES, PERO DEPENDIENDO DE SI SON MATERIAS DE CICLO O DE SEMESTRE SE CARGARÁN YA SEA 9 0 18. ESTO OBVIAMENTE VA CONECTADO CON LA BD, Y ALLÍ SE CARGARÁN LOS MÓDULOS RESPECTIVOS. SESIÓN VA CONECTADA CON C.T Y C.E TAMBIÉN
+  
+  -->
+  
+  <div class="container">
+  <div class="row">
+    <div class="col-*-*" class="font-weight-bold">COMP. TRANSV
+        
+        <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+      EM</label>
+        </div>
+        <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+      SH</label>
+        </div>
+        <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+       IN</label>
+        </div>
+        <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+      CO</label>
+        </div>
+        <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+      TE</label>
+        </div>
+        
+    </div>
+
+  </div>
+   <div class="form-check">COMP. ESPECÍFICA
+    <div class="col">
+    
+     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+      A</label>
+        </div>
+        <div class="col">
+           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+      B</label>
+        </div>
+        <div class="col">
+           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+      C</label>
+        </div>
+        <div class="col">
+           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+      D</label>
+        </div>
+        <div class="col">
+           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" class="font-weight-bold" for="defaultCheck1">
+      E</label>
+        </div>
+        
+    </div>
+    
+    <LABEL CLASS="text text-danger">AQUÍ VAN LAS SESIONES PERO AÙN NO HE PENSADO COMO DISEÑARLAS</LABEL>
+    </div>
+    
+    
+    
+    
+  
+  <button type="submit" class="btn btn-primary">Guardar</button>
+  <button type="submit" class="btn btn-info">Actualizar</button>
+  <button type="submit" class="btn btn-danger">Cancelar</button>
+</form>   
+   </div>
+    </div>
+</body>
+</html>
